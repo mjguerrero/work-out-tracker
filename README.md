@@ -21,7 +21,7 @@ Workout-Tracker provides the user with plenty of functionality to help them reac
 * Track the distance traveled if the exercise was cardio based
 * View past workouts
 
-Currently this project is deployed [here](https://pure-earth-07208.herokuapp.com), but can also be ran locally if you so desire.
+Currently this project is deployed [here](https://nameless-hamlet-11333.herokuapp.com), but can also be ran locally if you so desire.
 ### <a name="Screenshots"></a>Screenshots
 ![Historic_stats](https://github.com/jos23867/Work-Out-Tracker/blob/main/screenshots/Historic_stats.png)
 ![New_lift](https://github.com/jos23867/Work-Out-Tracker/blob/main/screenshots/New_lift.png)
