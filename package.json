@@ -1,31 +1,25 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "14.x"
-  },
+  "name": "work-out-tracker",
+  "version": "1.0.0",
+  "description": "Users will be able to view create and track daily workouts. Be able to log multiple exercises in a workout on a given day. Should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, users should be able to track distance",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "node test.js"
-  },
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "git+https://github.com/mjguerrero/work-out-tracker.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "author": "Maria J. Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjguerrero/work-out-tracker/issues"
+  },
+  "homepage": "https://github.com/mjguerrero/work-out-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0"
+  }
 }
